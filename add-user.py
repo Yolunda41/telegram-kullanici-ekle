@@ -9,7 +9,7 @@ class bcolors:
     OKGREEN = '\033[92m'
 
 
-config = open(r"C:\Users\acmlk\OneDrive\Masaüstü\test\config.json", "r")
+config = open(r"config.json", "r")
 config = json.loads(config.read())
 
 app = Client(
